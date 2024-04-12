@@ -1,13 +1,13 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.27)
 project(Algorithm)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories(
         LeetCode
 )
 
-add_executable(Algorithm main.cc)
+add_executable(Algorithm LeetCode/main.cc)
 add_executable(strange_donation 奇怪的捐赠.cc)
 add_executable(sum_of_squares 平方和.cc)
 add_executable(kmp LeetCode/kmp.cc)
@@ -46,3 +46,9 @@ add_executable(236 LeetCode/236.cpp)
 add_executable(235 LeetCode/235.cc)
 add_executable(1 LeetCode/1.cc)
 add_executable(33 LeetCode/33.cc)
+add_executable(irrigation 灌溉-DFS.cc)
+add_executable(diff 次数差.cc)
+add_executable(substr 不同字串.cc)
+add_executable(day 含2天数.cc)
+add_executable(asc 数位递增的数.cc)
+add_executable(sum 求和.cc)
