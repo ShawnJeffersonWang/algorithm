@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.27)
 project(Algorithm)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 include_directories(
         LeetCode
@@ -53,3 +53,5 @@ add_executable(substr 不同字串.cc)
 add_executable(day 含2天数.cc)
 add_executable(asc 数位递增的数.cc)
 add_executable(sum 求和.cc)
+add_executable(train_soldiers TrainSoldiers.cc)
+add_executable(maximum maximumLength.cc)
