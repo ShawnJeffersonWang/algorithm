@@ -10,6 +10,7 @@ include_directories(
 add_executable(Algorithm LeetCode/main.cc)
 add_executable(strange_donation 奇怪的捐赠.cc)
 add_executable(sum_of_squares 平方和.cc)
+
 add_executable(kmp LeetCode/kmp.cc)
 add_executable(minSubArray LeetCode/minSubArray.cc)
 add_executable(CharacterCount LeetCode/CharacterCount.c)
