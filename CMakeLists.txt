@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.27)
 project(Algorithm)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 include_directories(
         LeetCode
@@ -57,3 +57,6 @@ add_executable(alternating_row_colors 隔行变色.cc)
 add_executable(irrigation_dfs 灌溉_深搜.cc)
 add_executable(removeDuplicates removeDuplicates.cc)
 add_executable(irrigation_1 灌溉.cc)
+add_executable(train_soldiers TrainSoldiers.cc)
+add_executable(maximum maximumLength.cc)
+add_executable(malloc malloc.cc)
