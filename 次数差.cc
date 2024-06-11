@@ -2,7 +2,8 @@
 // Created by shawn on 24-4-12.
 //
 
-#include<bits/stdc++.h>
+#include <vector>
+#include <iostream>
 
 using namespace std;
 

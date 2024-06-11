@@ -1,7 +1,7 @@
 //
 // Created by 86138 on 2024/4/11.
 //
-#include <bits/stdc++.h>
+#include <iostream>
 
 #define BLUE 0
 #define WHITE 1

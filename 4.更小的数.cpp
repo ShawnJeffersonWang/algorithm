@@ -4,7 +4,9 @@
 //本题思路：按位比较两端，如果是大于小于的情况容易处理，但如果是等于的情况需要耗费n的时间复杂度向中间再比较
 //这样会使得时间复杂度达到n^3，根据测试用例大小可知后面60%跑不了，需要优化到n^2
 //因此启用动态规划，当比较两端大小相等时，如i,j位,直接根据已经计算过的dp[i+1][j-1]得出结论，时间复杂度为1
-#include <bits/stdc++.h>
+#include <string>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 

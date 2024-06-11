@@ -1,15 +1,11 @@
 //
 // Created by shawn on 24-4-12.
 //
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int day[] = {
-        -1,
-        31, 28, 31, 30, 31, 30,
-        31, 31, 30, 31, 30, 31
-};
+int day[] = {-1, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
 int isLeapYear(int y) {
     if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
